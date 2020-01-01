@@ -1,13 +1,6 @@
-# Composer template for Drupal projects
+# Aegir Hostmaster Composer Template
 
-[![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=7.x)](https://travis-ci.org/drupal-composer/drupal-project)
-
-This project template provides a starter kit for managing your site
-dependencies with [Composer](https://getcomposer.org/).
-
-If you want to know how to use it as replacement for
-[Drush Make](https://github.com/drush-ops/drush/blob/8.x/docs/make.md) visit
-the [Documentation on drupal.org](https://www.drupal.org/node/2471553).
+This project template provides a starter kit for the Aegir Hostmaster Drupal distribution.
 
 ## Usage
 
@@ -20,7 +13,7 @@ for your setup.
 After that you can create the project:
 
 ```
-composer create-project drupal-composer/drupal-project:7.x-dev some-dir --no-interaction
+composer create-project aegir/hostmaster-project:7.x-dev --no-interaction /var/aegir/hostmaster-7.x-4.x
 ```
 
 With `composer require ...` you can download new dependencies to your
