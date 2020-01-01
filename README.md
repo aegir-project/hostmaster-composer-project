@@ -13,7 +13,7 @@ for your setup.
 After that you can create the project:
 
 ```
-composer create-project aegir/hostmaster-project:7.x-dev --no-interaction /var/aegir/hostmaster-7.x-4.x
+composer create-project aegir/hostmaster-project:dev-master --no-interaction /var/aegir/hostmaster-7.x-4.x
 ```
 
 With `composer require ...` you can download new dependencies to your
